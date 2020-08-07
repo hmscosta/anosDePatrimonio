@@ -17,4 +17,11 @@ import csv
 
 
 f = open('dataset/bem_candidato_2018_AP.csv')
-csv_f = csv.reader(f)
+csv_f = csv.reader(f, delimiter=';', quotechar='"')
+for row in csv_f:
+  print ("Codigo candidato: " + row[11] + "\n" +
+         "Nome: " + row[11] + "\n" +
+         "Lista de bens: " + row[14] + "\n" +
+         "Valor (R$): " + row[16] + "\n" 
+        )
+

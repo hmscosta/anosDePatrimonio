@@ -1,5 +1,5 @@
 
-
+#Class responsible to handle all the operations with data
 class Operacoes(object):
 
   def pesquisarNome(self,codigoCandidato, datasetCandidatos):

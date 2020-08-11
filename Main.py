@@ -7,9 +7,10 @@ from Operacoes import Operacoes
 reload(sys)
 sys.setdefaultencoding("latin-1")
 
-
+#Main class of the program
 class Program:
-      
+
+#Main method of the program      
   def main():
     objetoArquivos = Arquivos()
     objetoOperacoes = Operacoes()

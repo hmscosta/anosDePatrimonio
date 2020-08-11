@@ -1,6 +1,7 @@
 import csv
 import sys
 
+#Class responsible to open and close the files
 class Arquivos(object):
 
     def __init__(self):

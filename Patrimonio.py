@@ -60,7 +60,6 @@ datasetCandidatos.next()
 #testes()
 for row in datasetBens:
   nome = pesquisarNome(row[11], datasetCandidatos)
-
   arquivoCandidatos.seek(0)
   datasetCandidatos.next() 
   print ("Codigo candidato: " + row[11] + "\n" +
@@ -68,7 +67,6 @@ for row in datasetBens:
          "Lista de bens: " + row[14] + "\n" +
          "Valor (R$): " + row[16] + "\n" 
         )
-
 arquivoBens.close()
 arquivoCandidatos.close()
 
